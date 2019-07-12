@@ -1,0 +1,76 @@
+dependencies:
+  gun: 0.2019.627
+packages:
+  /async-limiter/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-jp/uFnooOiO+L211eZOoSyzpOITMXx1rBITauYykG3BRYPu8h0UcxsPNB04RR5vo4Tyz3+ay17tR6JVf9qzYWg==
+  /gun/0.2019.627:
+    dependencies:
+      ws: 7.0.1
+    dev: false
+    engines:
+      node: '>=0.8.4'
+    optionalDependencies:
+      node-webcrypto-ossl: 1.0.48
+      text-encoding: 0.7.0
+    resolution:
+      integrity: sha512-PiZPUO5PBTrmbPHvxtPHPtkiqvcbkvyGzETu+57hig/YqC6yR+Ownx2wXOntNXff9al/FnvSMFQL7fYp3GHoow==
+  /minimist/0.0.8:
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
+  /mkdirp/0.5.1:
+    dependencies:
+      minimist: 0.0.8
+    dev: false
+    hasBin: true
+    optional: true
+    resolution:
+      integrity: sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
+  /nan/2.14.0:
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==
+  /node-webcrypto-ossl/1.0.48:
+    dependencies:
+      mkdirp: 0.5.1
+      nan: 2.14.0
+      tslib: 1.10.0
+      webcrypto-core: 0.1.26
+    dev: false
+    optional: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-MWUkQ/5wrs7lpAr+fhsLMfjdxKGd3dQFVqWbNMkyYyCMRW8E7ScailqtCZYDLTnJtU6B+91rXxCJNyZvbYaSOg==
+  /text-encoding/0.7.0:
+    deprecated: no longer maintained
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha512-oJQ3f1hrOnbRLOcwKz0Liq2IcrvDeZRHXhd9RgLrsT+DjWY/nty1Hi7v3dtkaEYbPYe0mUoOfzRrMwfXXwgPUA==
+  /tslib/1.10.0:
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
+  /webcrypto-core/0.1.26:
+    dependencies:
+      tslib: 1.10.0
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha512-BZVgJZkkHyuz8loKvsaOKiBDXDpmMZf5xG4QAOlSeYdXlFUl9c1FRrVnAXcOdb4fTHMG+TRu81odJwwSfKnWTA==
+  /ws/7.0.1:
+    dependencies:
+      async-limiter: 1.0.0
+    dev: false
+    resolution:
+      integrity: sha512-ILHfMbuqLJvnSgYXLgy4kMntroJpe8hT41dOVWM8bxRuw6TK4mgMp9VJUNsZTEc5Bh+Mbs0DJT4M0N+wBG9l9A==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  gun: ^0.2019.627

@@ -5,6 +5,8 @@ var http = require('http');
 var port = process.env.PORT || 8080;
 var fs = require('fs');
 
+var gun = Gun();
+
 // Listens on /gun.js route.
 var server = http.Server();
 
@@ -17,7 +19,10 @@ server.on('request', function (req, res) {
 });
 
 var gun = Gun({
-	web: server // Handles real-time requests and updates.
+	web: server, // Handles real-time requests and updates.
+  file: 'db/data.json',
+  radisk: false, 
+  localStorage: true
 });
 
 server.listen(port, function () {
